@@ -14,7 +14,7 @@ function addd()
 	studentregs.push(regs);
 	console.log(studentnames);
 	console.log(studentregs);
-	window.location.href = "menu.HTML";
+	window.location.href = "index.html";
 	count=count+1;
 }
 function deletee()
@@ -27,7 +27,7 @@ function deleteee()
 	regs = document.getElementById("regg").value;
 	studentnames.pop(names);
 	studentregs.pop(regs);
-	window.location.href = "menu.HTML";
+	window.location.href = "index.html";
 	count=count-1;
 }
 console.log(count)
@@ -42,5 +42,5 @@ function display()
 }
 function MENU()
 {
-	window.location.href = "menu.HTML";	
+	window.location.href = "index.html";	
 }
